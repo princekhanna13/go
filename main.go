@@ -10,7 +10,6 @@ func main() {
 	fmt.Scanln(&input)
 	fmt.Println(input)
 	var names = []string{"a", "b", "c", "d", "e"}
-	//fmt.Println(names)
 	person := ent.Person{Name: "Prince", Gender: "Male"}
 	fmt.Println(person.IsMale())
 	for i, name := range names {
