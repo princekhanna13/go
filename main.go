@@ -12,6 +12,7 @@ func main() {
 	var names = []string{"a", "b", "c", "d", "e"}
 	person := ent.Person{Name: "Prince", Gender: "Male"}
 	fmt.Println(person.IsMale())
+	fmt.Print("test")
 	for i, name := range names {
 		fmt.Println(name, "At Postition", i)
 	}
